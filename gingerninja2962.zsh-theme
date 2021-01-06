@@ -5,7 +5,7 @@ ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[138]%}["
 ZSH_THEME_GIT_PROMPT_SUFFIX="]"
 
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$FG[123]%} un-tracked files,%f%k"
-ZSH_THEME_GIT_PROMPT_ADDED="%{$FG[117]%} changes added ✚,%f%k "
+ZSH_THEME_GIT_PROMPT_ADDED="%{$FG[117]%} changes added ✚,%f%k"
 ZSH_THEME_GIT_PROMPT_MODIFIED="%{$FG[122]%} new changes ✂,%f%k"
 ZSH_THEME_GIT_PROMPT_RENAMED="%{$FG[116]%} re-named files ❯,%f%k"
 ZSH_THEME_GIT_PROMPT_DELETED="%{$FG[109]%} deleted files ✘,%f%k"
