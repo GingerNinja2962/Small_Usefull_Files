@@ -16,8 +16,8 @@ ZSH_THEME="gingerninja2962"
 
 clear
 echo -ne "Hello, $USER "
-echo -e "Today is: \t${LIGHTGRAY}" `date`
-echo -e "Kernel Information: \t\t\t${LIGHTGRAY}" `uname -smr`
+echo -e "Today is: \t" `date`
+echo -e "Kernel Information: \t\t\t" `uname -smr`
 # echo $RANDOM_THEME
 
 alias ll='ls -lA'
