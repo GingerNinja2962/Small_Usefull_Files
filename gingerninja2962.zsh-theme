@@ -1,6 +1,5 @@
-PROMPT=$'%{$FG[177]%}$(ruby_prompt_info) %B%{$FG[166]%}%~%f
-$(git_prompt_info) $(git_prompt_status)%b
- %B%{$FG[160]%}%n %f:%b '
+PROMPT=$'%{$FG[177]%}$(ruby_prompt_info) %B%{$FG[166]%}%~%f $(git_prompt_status)
+ %{$FG[160]%}%n$(git_prompt_info) %f:%b '
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[138]%}["
 ZSH_THEME_GIT_PROMPT_SUFFIX="]"
