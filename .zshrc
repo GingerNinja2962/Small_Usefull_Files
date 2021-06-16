@@ -22,8 +22,10 @@ echo -e "Kernel Information: \t\t\t" `uname -smr`
 
 alias ll='ls -lA'
 
+# This is a custom edit on the cd command to
+# list the files in the new directory automatically with color.
 cd () {
-    clear && builtin cd "$@" && ls -lA $LS_COLOR
+    clear && builtin cd "$@" && ls -lA --color
 }
 
 # Set list of themes to pick from when loading at random
